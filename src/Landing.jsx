@@ -1,14 +1,20 @@
 import styled from "styled-components";
 import PlayButton from "./icons/PlayButton.png";
+import GiantFood from "./icons/GiantFood.jpg";
+import IconsButtons from "./components/IconsButtons";
+import TruckIcon from "./icons/TruckIcon.png"
+import BoxIcon from "./icons/BoxIcon.png"
+import HouseIcon from "./icons/HouseIcon.png"
 
 const Main = styled.div`
     display: grid;
     grid-template-columns: 50% 50%;
-
-    @media (max-width: 600px){
+    margin-top: 3rem;
+    @media (max-width: 900px){
         display: flex;
         flex-direction: column;
         transform: translateY(7rem);
+        margin-top: 1rem;
     }
 `
 const Flexar = styled.div`
@@ -112,6 +118,33 @@ const Order = styled.div`
     }
 `
 
+const RightSide = styled.div`
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+`
+const GiantImage = styled.div`
+    img{
+        width: 40rem;
+        height: 30rem;
+        border-radius: 2rem; 
+    }
+
+    @media (max-width: 900px){
+        img {
+            width: 22rem;
+            height: 20rem;
+            border-radius: 2rem;
+        }
+    }
+`
+const FlexIconButtons = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+`
+
 export default function Landing() {
     return(
         <Main>
@@ -128,7 +161,16 @@ export default function Landing() {
                     </Textosbuttons>
                 </Textos>
             </Flexar>
-            <h1>Teste</h1>
+            <RightSide>
+                <GiantImage>
+                    <img src={GiantFood}/>
+                </GiantImage>
+                <FlexIconButtons>
+                    <IconsButtons image ={TruckIcon} texto="Delivery"/>
+                    <IconsButtons image={BoxIcon} texto="PickUp"/>
+                    <IconsButtons image={HouseIcon} texto="DineIn"/>
+                </FlexIconButtons>
+            </RightSide>
         </Main>
     )
 }

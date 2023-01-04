@@ -8,7 +8,7 @@ const Main = styled.div`
     height: 3rem;
     margin: 1rem;
 
-    @media (max-height: 900px){
+    @media (max-height: 500px){
         display: flex;
         flex-direction: column;
 
@@ -31,7 +31,7 @@ const Links = styled.div`
         }
     }
 
-    @media (max-width: 600px){
+    @media (max-width: 500px){
         display: flex;
         justify-content: space-between;
         
@@ -85,7 +85,7 @@ export default function Cabecalho() {
                 <p>Store</p>
                 <p>Services</p>
                 <p>Contact</p>
-                <p>SOBRE</p>
+                <p>About</p>
             </Links>
             <Buttoes>
                 <button>Login</button>
