@@ -163,7 +163,7 @@ export default function Landing() {
             </Flexar>
             <RightSide>
                 <GiantImage>
-                    <img src={GiantFood}/>
+                    <img alt="GiantFood" src={GiantFood}/>
                 </GiantImage>
                 <FlexIconButtons>
                     <IconsButtons image ={TruckIcon} texto="Delivery"/>
