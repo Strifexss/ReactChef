@@ -122,7 +122,7 @@ export default function Landing() {
                     <Textosbuttons>
                         <button>Explore</button>
                         <Order>
-                            <img src={PlayButton}/>
+                            <img alt="Play" src={PlayButton}/>
                             <p>How to Order</p>
                         </Order>
                     </Textosbuttons>

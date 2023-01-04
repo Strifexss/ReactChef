@@ -78,7 +78,7 @@ export default function Cabecalho() {
         <Main>
             <Logo>
                 <h1>Foodie</h1>
-                <img src={Fork}/>
+                <img alt="Logo" src={Fork}/>
             </Logo>
             <Links>
                 <p>Home</p>
