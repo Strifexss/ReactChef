@@ -1,5 +1,9 @@
 import styled from "styled-components"
 import DishesIcons from "./components/DishesIcons"
+import GiantFood from "./icons/GiantFood.jpg"
+import ShrimpSalad from "./icons/ShrimpSalad.jpg"
+import PennePasta from "./icons/PennePasta.jpg"
+import Sausage from "./icons/Sausage Fried Rice.jpg"
 
 const Main = styled.div`
     display: flex;
@@ -37,10 +41,10 @@ export default function PopularDishes() {
         <Main>
             <h1>Popular Dishes</h1>
             <Comidas>
-                <DishesIcons/>
-                <DishesIcons/>
-                <DishesIcons/>
-                <DishesIcons/>
+                <DishesIcons imagem={GiantFood}texto="Chicken Salad"/>
+                <DishesIcons imagem={ShrimpSalad} texto="Shrimp Salad"/>
+                <DishesIcons imagem={PennePasta} texto="Penne Pasta"/>
+                <DishesIcons imagem={Sausage} texto="Fried Rice"/>
             </Comidas>
         </Main>
     )

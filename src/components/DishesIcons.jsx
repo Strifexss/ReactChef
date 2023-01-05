@@ -1,5 +1,4 @@
 import styled from "styled-components"
-import GiantFood from "../icons/GiantFood.jpg"
 import HeartIcon from "../icons/HeartIcon.png"
 
 const Main = styled.div`
@@ -14,6 +13,7 @@ const Main = styled.div`
     border: solid 2px #453659;
     border-radius: 2rem;
     cursor: pointer;
+    transition: 0.1s;
 
     img {
         width: 12rem;
@@ -46,15 +46,15 @@ const Valor = styled.div`
     }
 `
 
-export default function DishesIcons() {
+export default function DishesIcons(props) {
     return(
         <Main>
             <Valor>
                 <h2>$15</h2>
                 <img src={HeartIcon} alt="Favorite" />
             </Valor>
-            <img src={GiantFood} alt="Food" />
-            <h1>Chicken Curry</h1>
+            <img src={props.imagem} alt="Food" />
+            <h1>{props.texto}</h1>
         </Main>
     )
 }
