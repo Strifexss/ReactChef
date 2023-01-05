@@ -45,6 +45,7 @@ const Flexar = styled.div`
 
     p {
         cursor: pointer;
+        text-align: center;
     }
 `
 const Textos = styled.div`
@@ -55,10 +56,11 @@ const Textos = styled.div`
     width: 80%;
 
     h1 {
-        font-size: 4rem;
+        font-size: 5rem;
+        text-align: center;
     }
 
-    @media (max-width: 600px){
+    @media (max-width: 900px){
         h1 {
             font-size:2rem;
         }
@@ -133,7 +135,7 @@ const GiantImage = styled.div`
 
     @media (max-width: 900px){
         img {
-            width: 22rem;
+            width: 20rem;
             height: 20rem;
             border-radius: 2rem;
         }
@@ -141,6 +143,7 @@ const GiantImage = styled.div`
 `
 const FlexIconButtons = styled.div`
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 `

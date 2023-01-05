@@ -7,8 +7,7 @@ const Main = styled.div`
     align-items: center;
     height: 3rem;
     margin: 1rem;
-
-    @media (max-height: 500px){
+    @media (max-width: 900px){
         display: flex;
         flex-direction: column;
 

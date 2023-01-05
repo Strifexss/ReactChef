@@ -11,6 +11,11 @@ border: transparent solid 1px;
 @media (max-width: 500px){
         width: 6rem;
         margin: 0.8rem;
+
+        img {
+            width: 1rem;
+            height: 1rem;
+        }
     }
 
 :hover{
