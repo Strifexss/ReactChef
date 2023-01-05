@@ -79,6 +79,7 @@ const Textosbuttons = styled.div`
         color: #FFE8B8;
         width: 5rem;
         height: 2.5rem;
+        border: none;
         border-radius: 2rem;
         cursor: pointer;
         transition: 0.1s;

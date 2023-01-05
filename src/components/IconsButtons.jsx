@@ -10,7 +10,7 @@ cursor: pointer;
 border: transparent solid 1px;
 @media (max-width: 500px){
         width: 6rem;
-        margin: 0.8rem;
+        margin: 1.3rem;
 
         img {
             width: 1rem;
