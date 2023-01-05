@@ -39,7 +39,7 @@ const Main = styled.div`
         text-align: center;
 
         @media (max-width: 900px){
-        font-size: 3rem; 
+        font-size: 2.5rem; 
     }
     }
 
