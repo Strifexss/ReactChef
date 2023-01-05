@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/ReactChef/static/css/main.5cd03397.css",
-    "main.js": "/ReactChef/static/js/main.bcd7cd1a.js",
+    "main.js": "/ReactChef/static/js/main.c001cc6c.js",
     "static/media/GiantFood.jpg": "/ReactChef/static/media/GiantFood.d74acb1efa7a2d1bc3fd.jpg",
     "index.html": "/ReactChef/index.html",
     "main.5cd03397.css.map": "/ReactChef/static/css/main.5cd03397.css.map",
-    "main.bcd7cd1a.js.map": "/ReactChef/static/js/main.bcd7cd1a.js.map"
+    "main.c001cc6c.js.map": "/ReactChef/static/js/main.c001cc6c.js.map"
   },
   "entrypoints": [
     "static/css/main.5cd03397.css",
-    "static/js/main.bcd7cd1a.js"
+    "static/js/main.c001cc6c.js"
   ]
 }
