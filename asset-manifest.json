@@ -1,14 +1,18 @@
 {
   "files": {
     "main.css": "/ReactChef/static/css/main.5cd03397.css",
-    "main.js": "/ReactChef/static/js/main.c001cc6c.js",
+    "main.js": "/ReactChef/static/js/main.6ac47752.js",
+    "static/media/ShrimpSalad.jpg": "/ReactChef/static/media/ShrimpSalad.d613d18d878648f3e07a.jpg",
     "static/media/GiantFood.jpg": "/ReactChef/static/media/GiantFood.d74acb1efa7a2d1bc3fd.jpg",
+    "static/media/Sausage Fried Rice.jpg": "/ReactChef/static/media/Sausage Fried Rice.c518b5da21a9442e0c9c.jpg",
+    "static/media/PennePasta.jpg": "/ReactChef/static/media/PennePasta.0c90800bc82f244ca60b.jpg",
+    "static/media/Chef.png": "/ReactChef/static/media/Chef.cc3ce1c933988cedbf6a.png",
     "index.html": "/ReactChef/index.html",
     "main.5cd03397.css.map": "/ReactChef/static/css/main.5cd03397.css.map",
-    "main.c001cc6c.js.map": "/ReactChef/static/js/main.c001cc6c.js.map"
+    "main.6ac47752.js.map": "/ReactChef/static/js/main.6ac47752.js.map"
   },
   "entrypoints": [
     "static/css/main.5cd03397.css",
-    "static/js/main.c001cc6c.js"
+    "static/js/main.6ac47752.js"
   ]
 }
