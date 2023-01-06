@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ReactChef/static/css/main.5cd03397.css",
-    "main.js": "/ReactChef/static/js/main.e2d33135.js",
+    "main.js": "/ReactChef/static/js/main.d2afbdeb.js",
     "static/media/ShrimpSalad.jpg": "/ReactChef/static/media/ShrimpSalad.d613d18d878648f3e07a.jpg",
     "static/media/GiantFood.jpg": "/ReactChef/static/media/GiantFood.d74acb1efa7a2d1bc3fd.jpg",
     "static/media/Sausage Fried Rice.jpg": "/ReactChef/static/media/Sausage Fried Rice.c518b5da21a9442e0c9c.jpg",
@@ -10,12 +10,13 @@
     "static/media/Chef.png": "/ReactChef/static/media/Chef.cc3ce1c933988cedbf6a.png",
     "static/media/Pessoa3.jpg": "/ReactChef/static/media/Pessoa3.4a2de9180dcffdbf954e.jpg",
     "static/media/Pessoa1.jpg": "/ReactChef/static/media/Pessoa1.f8d3fc70f44be32c10b7.jpg",
+    "static/media/Smartphone.png": "/ReactChef/static/media/Smartphone.a06a23dd082082d7d770.png",
     "index.html": "/ReactChef/index.html",
     "main.5cd03397.css.map": "/ReactChef/static/css/main.5cd03397.css.map",
-    "main.e2d33135.js.map": "/ReactChef/static/js/main.e2d33135.js.map"
+    "main.d2afbdeb.js.map": "/ReactChef/static/js/main.d2afbdeb.js.map"
   },
   "entrypoints": [
     "static/css/main.5cd03397.css",
-    "static/js/main.e2d33135.js"
+    "static/js/main.d2afbdeb.js"
   ]
 }
