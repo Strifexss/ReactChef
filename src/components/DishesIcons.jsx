@@ -15,6 +15,14 @@ const Main = styled.div`
     cursor: pointer;
     transition: 0.1s;
 
+    @media (max-width: 1599px){
+      width: 15rem;
+      height: 20rem;
+    }
+
+    
+    
+
     img {
         width: 12rem;
         height: 12rem;

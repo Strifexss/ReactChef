@@ -60,11 +60,19 @@ const Textos = styled.div`
         text-align: center;
     }
 
-    @media (max-width: 900px){
+    @media (max-width: 1280px){
         h1 {
             font-size:2rem;
         }
     }
+    
+    @media (min-width: 1281px) and (max-width: 1599px){
+    h1{
+      font-size: 3rem;
+    }
+    }
+
+
 `
 
 const Textosbuttons = styled.div`
@@ -140,6 +148,20 @@ const GiantImage = styled.div`
             height: 20rem;
             border-radius: 2rem;
         }
+    }
+
+    @media (min-width: 900px) and (max-width: 1280px){
+    img{
+      height: 22rem;
+      width: 25rem;
+    }
+    }
+   
+    @media (min-width: 1281px) and (max-width: 1599px){
+    img{
+        height: 35rem;
+      width: 33rem;
+    }
     }
 `
 const FlexIconButtons = styled.div`
